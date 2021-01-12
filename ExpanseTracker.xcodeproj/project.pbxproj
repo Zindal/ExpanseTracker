@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB21DD9D25AD969B00F5F903 /* AddExpanseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB21DD9B25AD969B00F5F903 /* AddExpanseVC.swift */; };
+		BB21DD9E25AD969B00F5F903 /* ListExpanseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB21DD9C25AD969B00F5F903 /* ListExpanseVC.swift */; };
 		BB96C1BC25AD890E009EBE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C1BB25AD890E009EBE08 /* AppDelegate.swift */; };
-		BB96C1BE25AD890E009EBE08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C1BD25AD890E009EBE08 /* SceneDelegate.swift */; };
-		BB96C1C025AD890E009EBE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C1BF25AD890E009EBE08 /* ViewController.swift */; };
 		BB96C1C325AD890E009EBE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB96C1C125AD890E009EBE08 /* Main.storyboard */; };
 		BB96C1C625AD890E009EBE08 /* ExpanseTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB96C1C425AD890E009EBE08 /* ExpanseTracker.xcdatamodeld */; };
 		BB96C1C825AD8913009EBE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB96C1C725AD8913009EBE08 /* Assets.xcassets */; };
 		BB96C1CB25AD8913009EBE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB96C1C925AD8913009EBE08 /* LaunchScreen.storyboard */; };
 		BB96C1D625AD8914009EBE08 /* ExpanseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C1D525AD8914009EBE08 /* ExpanseTrackerTests.swift */; };
 		BB96C1E125AD8914009EBE08 /* ExpanseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C1E025AD8914009EBE08 /* ExpanseTrackerUITests.swift */; };
+		BB96C20F25AD8C9B009EBE08 /* ItemListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C20E25AD8C9B009EBE08 /* ItemListTableCell.swift */; };
+		BB96C21525AD8DB2009EBE08 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB96C21425AD8DB2009EBE08 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB21DD9B25AD969B00F5F903 /* AddExpanseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddExpanseVC.swift; path = ExpanseTracker/AddExpanseVC.swift; sourceTree = SOURCE_ROOT; };
+		BB21DD9C25AD969B00F5F903 /* ListExpanseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListExpanseVC.swift; path = ExpanseTracker/ListExpanseVC.swift; sourceTree = SOURCE_ROOT; };
 		BB96C1B825AD890E009EBE08 /* ExpanseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpanseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB96C1BB25AD890E009EBE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB96C1BD25AD890E009EBE08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB96C1BF25AD890E009EBE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB96C1C225AD890E009EBE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB96C1C525AD890E009EBE08 /* ExpanseTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpanseTracker.xcdatamodel; sourceTree = "<group>"; };
 		BB96C1C725AD8913009EBE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		BB96C1DC25AD8914009EBE08 /* ExpanseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpanseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB96C1E025AD8914009EBE08 /* ExpanseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpanseTrackerUITests.swift; sourceTree = "<group>"; };
 		BB96C1E225AD8914009EBE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB96C20E25AD8C9B009EBE08 /* ItemListTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListTableCell.swift; sourceTree = "<group>"; };
+		BB96C21425AD8DB2009EBE08 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB21DD9A25AD956F00F5F903 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB21DD9B25AD969B00F5F903 /* AddExpanseVC.swift */,
+				BB21DD9C25AD969B00F5F903 /* ListExpanseVC.swift */,
+			);
+			name = Controller;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		BB96C1AF25AD890E009EBE08 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +115,10 @@
 		BB96C1BA25AD890E009EBE08 /* ExpanseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				BB21DD9A25AD956F00F5F903 /* Controller */,
+				BB96C1F525AD8A66009EBE08 /* View */,
+				BB96C1F425AD8A5E009EBE08 /* Model */,
 				BB96C1BB25AD890E009EBE08 /* AppDelegate.swift */,
-				BB96C1BD25AD890E009EBE08 /* SceneDelegate.swift */,
-				BB96C1BF25AD890E009EBE08 /* ViewController.swift */,
 				BB96C1C125AD890E009EBE08 /* Main.storyboard */,
 				BB96C1C725AD8913009EBE08 /* Assets.xcassets */,
 				BB96C1C925AD8913009EBE08 /* LaunchScreen.storyboard */,
@@ -129,6 +144,22 @@
 				BB96C1E225AD8914009EBE08 /* Info.plist */,
 			);
 			path = ExpanseTrackerUITests;
+			sourceTree = "<group>";
+		};
+		BB96C1F425AD8A5E009EBE08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB96C21425AD8DB2009EBE08 /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB96C1F525AD8A66009EBE08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB96C20E25AD8C9B009EBE08 /* ItemListTableCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB96C1C025AD890E009EBE08 /* ViewController.swift in Sources */,
+				BB21DD9D25AD969B00F5F903 /* AddExpanseVC.swift in Sources */,
+				BB96C21525AD8DB2009EBE08 /* CoreDataManager.swift in Sources */,
+				BB96C20F25AD8C9B009EBE08 /* ItemListTableCell.swift in Sources */,
 				BB96C1BC25AD890E009EBE08 /* AppDelegate.swift in Sources */,
-				BB96C1BE25AD890E009EBE08 /* SceneDelegate.swift in Sources */,
 				BB96C1C625AD890E009EBE08 /* ExpanseTracker.xcdatamodeld in Sources */,
+				BB21DD9E25AD969B00F5F903 /* ListExpanseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
