@@ -14,7 +14,7 @@ class ListExpanseVC: UIViewController {
     var itemList: [NSManagedObject] = []
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        tblView.tableFooterView = UIView.init(frame: .zero)
     }
 
     override func viewWillAppear(_ animated: Bool) {
